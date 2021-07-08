@@ -1,0 +1,180 @@
+
+html {
+    font-size: 20px;
+    font-family: 'Fredoka One', cursive;
+}
+
+body {
+    background-color: #000;
+    color: #fff;
+    margin: 0;
+    min-width: 400px;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* HEADER */
+
+ .nav_header {
+     background-color: #000;
+     height: 3.5rem;
+     width: 100%;
+     padding: .5rem 1rem;
+     box-sizing: border-box;
+     display: flex;
+     align-items: center;
+     border-bottom: 2px solid #fff;
+     position: fixed;
+     top: 0px;
+     z-index: 100;
+ }
+
+ .nav_header .logo {
+     height: 2.5rem;
+     flex: 1;
+ }
+
+ .nav_header .logo img {
+     height: 100%;
+ }
+
+ .nav_header .desktop ul {
+     display: inline-flex;
+     margin: 0;
+ }
+
+ .nav_header .desktop ul li {
+     padding: 0 1.3rem;
+ }
+
+/* MAIN */
+
+main {
+    margin-top: 3.5rem;
+}
+
+.cover_page {
+    display: flex;
+    height: 36rem;
+    width: 100%;
+    background-image: url(/RESOURCES/IMAGES/BODY/img-mission-background.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+}
+
+.cover_page .content_container {
+    width: 100%;
+    background-color: #000000c2;
+    text-align: center;
+}
+
+.cover_page .content_container{
+    padding: 1.3rem 1rem;
+}
+
+
+.catalogue_container {
+    text-align: center;
+    padding: 2rem;
+}
+
+.catalogue_container .content_container h2{
+    margin: 1.3rem 1rem;
+}
+
+.catalogue_container .catalog_items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.catalogue_container .catalog_items .item {
+    width: 17rem;
+    height: 12rem;
+    margin: .5rem;
+    flex: 1;
+    min-width: 17rem;
+    max-width: 20rem;
+    padding: 1rem;
+}
+
+.catalogue_container .catalog_items .item h3 {
+    margin: .4rem 0;
+}
+
+.catalogue_container .catalog_items .item figcaption {
+    margin-top: .5rem;
+}
+
+.catalogue_container .catalog_items .item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+.locations_container {
+    background-image: url(/RESOURCES/IMAGES/BODY/img-locations-background.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 2rem;
+    text-align: center;
+}
+
+.locations_container .content_container h1 {
+    text-align: center;
+}
+
+.locations_container .content_container h2 {
+    margin: 0;
+    text-align: center;
+}
+
+.locations_container .content_container .locations {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.locations_container .content_container .locations .location {
+    background-color: #000;
+    color: #fff;
+    padding: 1rem;
+    margin: 1rem;
+    flex: 1;
+    min-width: 13rem;
+    max-width: 25rem;
+}
+
+
+/* FOOTER */
+
+.nav_footer {
+    background-color: #fff;
+    color: #000;
+    display: flex;
+    padding: 1rem;
+    border-top: 2px solid #000;
+}
+
+.nav_footer .license {
+    margin: 0;
+    flex: 1;
+}
+
+.nav_footer .contact_section {
+    display: flex;
+}
+
+.nav_footer .contact_section div{
+    margin: 0 1rem;
+}
